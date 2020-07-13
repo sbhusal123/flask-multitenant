@@ -1,0 +1,16 @@
+# Editors and IDE files
+.vscode/
+.idea
+
+# Python specific files
+env/
+venv/
+*.pyc
+
+
+# Test database
+sqlite.db
+
+# Coverage
+.coverage
+coverage/
