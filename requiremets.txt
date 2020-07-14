@@ -1,3 +1,5 @@
 psycopg2
 Flask
 flask-sqlalchemy
+Flask-Migrate
+flask_script

@@ -16,6 +16,6 @@ config_file = os.getcwd() + '/config/' + config
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_pyfile(config_file)
 
-# Init database with SqlAlchemy
+# Initialize db with Sql alchemy
 db = SQLAlchemy(app)
-
+from restaurant.models import tenant
